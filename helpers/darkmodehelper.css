@@ -1,0 +1,49 @@
+.dark-body, .dark-header
+{
+    background-color: #231f1f;
+}
+
+.dark-body
+{
+    color: yellow;
+}
+
+.dark-header
+{
+
+}
+
+.dark-nav
+{
+
+}
+
+.dark-navlink
+{
+    color: yellow !important;
+}
+
+.dark-togglenavimg
+{
+    filter: invert();
+}
+
+.dark-section:nth-of-type(odd)
+{
+    background-color: #414141;
+
+}
+
+.dark-section:nth-of-type(even)
+{
+}
+
+.dark-uparrow
+{
+    background-color: gray !important;
+}
+
+.dark-nav, .dark-section:nth-of-type(even)
+{
+    background-color: #494848;
+}

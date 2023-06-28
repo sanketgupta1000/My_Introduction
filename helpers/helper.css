@@ -1,0 +1,127 @@
+@import "./darkmodehelper.css";
+
+* {
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-out;
+}
+
+body {
+    background-color: #ff8a00;
+    ;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background: #ffff2f;
+    border: 3px solid orangered;
+    justify-content: space-between;
+}
+
+.headeritem {}
+
+#sitetitle {
+    /* flex-grow: 1; */
+    text-align: center;
+}
+
+#myimgcont {
+    /* flex-grow: 0; */
+    display: flex;
+    align-items: center;
+}
+
+.img {}
+
+.headerimg {
+    width: 60px;
+}
+
+#myimg {
+    border-radius: 30px;
+}
+
+#togglenav {
+    border-radius: 30px;
+}
+
+#togglenav:hover {
+    cursor: pointer;
+    background-color: #c4c71c;
+}
+
+#togglenav:active {
+    opacity: 0.6;
+}
+
+nav {
+    position: sticky;
+    top: 3px;
+    /* display: none; */
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+    background-color: #ffff85;
+
+}
+
+ul#navlinksbox {
+    list-style-type: none;
+    margin: 0px;
+    /* padding: 0px; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li.navlinkitem {}
+
+a.navlink {
+    display: block;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: black;
+}
+
+a.navlink:hover {
+    background-color: rgb(255, 115, 64);
+    color: white;
+}
+
+section {
+    overflow: auto;
+    padding: 0px 50px;
+    /* font-size: 20px; */
+}
+
+section:nth-child(odd) {
+    background-color: #ffebb4;
+    ;
+}
+
+section:nth-child(even) {
+    background-color: #ffcf74;
+    ;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+a#uparrow {
+    text-decoration: none;
+    background: beige;
+    color: orangered;
+    font-size: 37px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    line-height: 40px;
+}
+
+a#uparrow:hover {
+    background-color: #ffcf74;
+}
